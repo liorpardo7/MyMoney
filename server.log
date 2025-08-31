@@ -1,0 +1,21 @@
+
+> personal-credit-control@0.1.0 start
+> next start -p 7777
+
+ ⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::7777
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at /Users/liorpardo/MyMoney/node_modules/.pnpm/next@14.0.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/start-server.js:279:16
+    at new Promise (<anonymous>)
+    at startServer (/Users/liorpardo/MyMoney/node_modules/.pnpm/next@14.0.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/start-server.js:190:11)
+    at nextStart (/Users/liorpardo/MyMoney/node_modules/.pnpm/next@14.0.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/cli/next-start.js:50:40)
+    at /Users/liorpardo/MyMoney/node_modules/.pnpm/next@14.0.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/bin/next:157:54
+    at async main (/Users/liorpardo/MyMoney/node_modules/.pnpm/next@14.0.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/bin/next:157:5) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 7777
+}
